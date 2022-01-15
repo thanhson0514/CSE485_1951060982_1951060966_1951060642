@@ -68,6 +68,24 @@ Nếu đã clone rồi thì không cần clone lại:
 > git clone https://github.com/thanhson0514/CSE485_1951060982_1951060966_1951060642.git
 ```
 
+Tạo file __`.env`__ và copy tất cả từ file __`.env.example`__ sang file __`.env`__:
+
+```dotenv
+JWT_SECRET_KEY=103739a6a67a572fea5f5b730bf3fc09681824daadf6dd66c7e2620e48c6a130cd403be92f2eae4d2a8185065e35e69e
+
+DB_DSN=mysql:host=localhost;port=3306;dbname=btl_n1
+DB_DRIVER=mysql
+DB_HOST=127.0.0.1
+DB_NAME=btl_n1
+DB_USER=root
+DB_PASSWORD=
+DB_CHARSET=utf8
+DB_COLLATION=utf8_unicode_ci
+DB_PREFIX=
+```
+
+Thay đổi 1 vài thông số (Hầu như không thay đổi gì ngoài `JWT_SECRET_KEY`)
+
 ### **Run**
 
 > Yêu cầu: Đã cài đặt composer và php 7.\*
@@ -76,6 +94,14 @@ Nếu đã clone rồi thì không cần clone lại:
 > cd backend
 > composer install
 > php -S localhost:8000 -t public
+```
+
+
+
+>*__Note:__* Trước khi chạy server cần phải tạo 1 database có tên là __`btl_n1`__. Sau đó chạy file __migrations.php__ để import các bảng vào database:
+
+```bash
+> php migrations.php
 ```
 
 _Sử dụng Postman để test dữ liệu_
