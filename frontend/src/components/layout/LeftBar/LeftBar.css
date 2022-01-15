@@ -1,0 +1,19 @@
+.left-bar {
+  height: 85vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.left-bar::-webkit-scrollbar {
+    width: 0;
+}
+.card__header-link-user {
+  text-decoration: none;
+}
+.card__title-name-page {
+  text-decoration: none;
+}
+.card__title-name-page:hover {
+  text-decoration: underline;
+  color: black;
+}

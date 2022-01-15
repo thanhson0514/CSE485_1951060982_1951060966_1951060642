@@ -1,0 +1,20 @@
+p {
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0;
+    color: #000 !important;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+button {
+    outline: none;
+}
+.topbar {
+    box-shadow: .5px 0 2px 1px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+}

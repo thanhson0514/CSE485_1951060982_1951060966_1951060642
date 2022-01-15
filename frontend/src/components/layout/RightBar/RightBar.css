@@ -1,0 +1,35 @@
+.Right-bar {
+    height: 85vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+.Right-bar::-webkit-scrollbar {
+      width: 0;
+  }
+.card-header-view{
+    text-decoration: none;
+    float: right;
+}
+.card-title-header {
+    float: left;
+
+}
+.card-header-view:hover{
+    text-decoration: underline;
+}
+
+.voucher {
+    text-decoration: none;
+    color: black;
+}
+.voucher:hover {
+    text-decoration:underline;
+    color: black;
+}
+.link-footer {
+    text-decoration: none;
+}
+.link-footer:hover {
+    text-decoration: underline;
+}

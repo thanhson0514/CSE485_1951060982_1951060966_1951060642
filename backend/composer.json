@@ -1,0 +1,24 @@
+{
+    "name": "admin/backend",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lê Thanh Sơn",
+            "email": "thanhson0514@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "3.*",
+        "slim/psr7": "^1.5",
+        "tuupola/slim-jwt-auth": "^3.5",
+        "vlucas/phpdotenv": "^5.4",
+        "illuminate/database": "^8.75",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "lodash-php/lodash-php": "^0.0.7"
+    }
+}
