@@ -33,6 +33,13 @@ Sử dụng library: ReactJS, Material UI
 > git clone https://github.com/thanhson0514/CSE485_1951060982_1951060966_1951060642.git
 ```
 
+Tạo file `.env` ở mục `frontent/` và paste code dưới đây vào:
+
+```dotenv
+REACT_APP_BASE_URL_IMG=http://localhost:8000/images/
+REACT_APP_BASE_URL=http://localhost:8000
+```
+
 ### **Run**
 
 > Yêu cầu: Đã cài đặt npm
@@ -68,7 +75,7 @@ Nếu đã clone rồi thì không cần clone lại:
 > git clone https://github.com/thanhson0514/CSE485_1951060982_1951060966_1951060642.git
 ```
 
-Tạo file __`.env`__ và copy tất cả từ file __`.env.example`__ sang file __`.env`__:
+Tạo file __`.env`__ cùng cấp với file __`.env.example`__ và copy tất cả từ file __`.env.example`__ sang file __`.env`__:
 
 ```dotenv
 JWT_SECRET_KEY=103739a6a67a572fea5f5b730bf3fc09681824daadf6dd66c7e2620e48c6a130cd403be92f2eae4d2a8185065e35e69e
