@@ -59,7 +59,7 @@ http://localhost:3000
 ### **References**
 
 - ReactJS: https://reactjs.org/
-- Bootstrap: https://getbootstrap.com/
+- Material UI: https://mui.com/
 
 ## **Backend**
 
